@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NYU Wireless Research Subscriber Dashboard</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Libre+Baskerville:wght@400;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="page">
+
+    <section class="content-block">
+      <h1>Dashboard Design for the NYU Wireless Research Subscriber App</h1>
+      <p class="summary">
+        This project focused on the design of a desktop dashboard application for NYU Wireless faculty. The app was created to make it easier to track subscribers across research projects, quickly view project activity, and manage communication with different subscriber groups through a clear and functional interface.
+      </p>
+    </section>
+
+    <section class="content-block">
+      <h2>Designing for Visibility and Quick Analysis</h2>
+      <p>
+        The NYU Wireless Research Subscriber App was designed after the option to subscribe to research projects was added to the front-end of the NYU Wireless website. Because faculty needed an easy way to monitor interest across many projects, a large graph was prioritized as the main focus of the dashboard. This made subscriber counts easy to scan at a glance and helped turn a large amount of data into something immediately usable.
+      </p>
+      <p>
+        Since there were many research projects to display, filtering also became an important part of the design. A large filtering panel was included so users could refine what appeared in the graph and make the visualization more practical for day-to-day use.
+      </p>
+    </section>
+
+    <section class="image-block">
+      <figure>
+        <button
+          class="image-trigger"
+          type="button"
+          data-full-image="assets/dashboard-app.jpg"
+          data-alt="Screenshot of the NYU Wireless Research Subscriber Dashboard app design"
+        >
+          <img
+            src="assets/dashboard-app.jpg"
+            alt="Screenshot of the NYU Wireless Research Subscriber Dashboard app design"
+          />
+        </button>
+        <figcaption>
+          Dashboard design showing research project subscriber data, filtering options, and subscriber detail tools.
+        </figcaption>
+      </figure>
+    </section>
+
+    <section class="content-block">
+      <h2>Subscriber Management and Communication Tools</h2>
+      <p>
+        To make the dashboard useful beyond high-level tracking, clicking a bar in the graph reveals subscriber details for the selected research project in a dedicated details panel. This created a clear relationship between the overall data view and the individual subscriber records connected to it.
+      </p>
+      <p>
+        Additional controls were included to sort subscribers by affiliates and to make bulk communication easier. Faculty were given the ability to contact all subscribers for a project, or only affiliate subscribers, which addressed a specific need for quickly reaching relevant groups tied to particular research topics.
+      </p>
+    </section>
+
+    <section class="content-block tech-section">
+      <h2 class="tech-header">Technologies Used</h2>
+
+      <div class="tech-tags">
+        <div class="tech-tag">Figma</div>
+        <div class="tech-tag">Excel</div>
+      </div>
+    </section>
+
+  </main>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <div class="lightbox-content">
+      <button class="lightbox-close" type="button" aria-label="Close image overlay">×</button>
+      <img id="lightbox-image" src="" alt="" />
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
